@@ -230,14 +230,18 @@
          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
          <!-- End Google Map -->
          <script>
+            // Function to fetch and display travel expenses based on the selected country
             function getTravelExpenses() {
+               // Get the country name entered by the user
                 const country = document.getElementById('country').value;
+            // Fetch data from the PHP script using the country parameter
             fetch(`travel_expenses.php?country=${country}`)
                     .then(response => response.json())
                     .then(data => {
                         if (data.error) {
                             document.getElementById('expense-details').innerHTML = "No data available for the selected country.";
                         } else {
+                           // Display the travel expenses for the selected country
                             document.getElementById('expense-details').innerHTML = `
                                 <h2>${country}</h2>
                                 <p>Accommodation: ${data.accommodation}</p>
@@ -247,7 +251,7 @@
                             `;
                         }
                     })
-                    .catch(error => console.error('Error fetching data:', error));
+                    .catch(error => console.error('Error fetching data:', error)); // Log any errors
             }
          </script>
    </body>
