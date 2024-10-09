@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 $apiKey = "492c6549b737e524683a52ccb9bbfa4c";
 $baseUrl = "https://api.forexrateapi.com/v1/latest";
 $baseCurrency = "USD";
-$targetCurrencies = "EUR,JPY,INR,CAD,CHF,MUR,GBP"; // Target currencies to display rates for
+$targetCurrencies = "EUR,JPY,INR,CAD,CHF,MUR,GBP,AUD,CNY,ZAR,AED,BRL,HKD,MXN,NZD,SGP"; // Target currencies to display rates for
 
 // Check if the format is set in the URL parameters
 $format = isset($_GET["format"]) ? strtolower($_GET["format"]) : "json";
