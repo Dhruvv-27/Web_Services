@@ -5,6 +5,9 @@ Project done by:
 Dhruv Kumar Sharma Punchcoory (2116038)
 Chetanand Goboodun (2013212)
 
+For our web page, we used a ready-made template related to our theme. The latter comes with pre-defined HTML codes along with its CSS, and images. Some changes had to be made to match our proposed work plan. 
+Link to the template: https://www.free-css.com/free-css-templates/page296/finexo
+
 Consumption of Existing Soap
 In this project, we use an existing SOAP-based web service, specifically the CountryInfoService provided by webservices.oorsprong.org. This service allows us to access information about various countries, including ISO codes and currency details.
 
