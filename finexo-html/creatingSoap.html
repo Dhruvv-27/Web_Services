@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <!-- Basic -->
+      <!-- Basic character encoding and browser compatibility settings -->
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <!-- Mobile Metas -->
+      <!-- Mobile settings for responsive design -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <!-- Site Metas -->
+      <!-- Meta tags for SEO and author information -->
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
+      <!-- Link to the website's favicon icon -->
       <link rel="shortcut icon" href="images/favicon.png" type="">
       <title> Finexo </title>
-      <!-- bootstrap core css -->
+      <!-- Link to Bootstrap core CSS for responsive layout and design -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-      <!-- fonts style -->
+      <!-- Link to Google Fonts for custom font styles -->
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-      <!--owl slider stylesheet -->
+      <!-- Link to Owl Carousel for slider functionality -->
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-      <!-- font awesome style -->
+      <!-- Link to Font Awesome for icons -->
       <link href="css/font-awesome.min.css" rel="stylesheet" />
-      <!-- Custom styles for this template -->
+      <!-- Link to custom styles for the template -->
       <link href="css/style.css" rel="stylesheet" />
-      <!-- responsive style -->
+      <!-- Link to styles for responsive adjustments -->
       <link href="css/responsive.css" rel="stylesheet" />
+      <!-- Additional Font Awesome library for icons -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    <body>
       <body class="sub_page">
          <div class="hero_area">
+            <!-- Background image for the hero section -->
             <div class="hero_bg_box">
                <div class="bg_img_box">
                   <img src="images/hero-bg.png" alt="">
                </div>
             </div>
-            <!-- header section strats -->
+            <!-- Header section starts -->
             <header class="header_section">
                <div class="container-fluid">
-                  <nav class="navbar navbar-expand-lg custom_nav-container ">
+                  <nav class="navbar navbar-expand-lg custom_nav-container">
+                     <!-- Website brand name with a link to the homepage -->
                      <a class="navbar-brand" href="index.html">
-                     <span>
-                     Finexo
-                     </span>
+                     <span> Finexo </span>
                      </a>
+                     <!-- Button for toggling the navigation menu on mobile devices -->
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class=""> </span>
                      </button>
+                     <!-- Collapsible navigation menu -->
                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav  ">
-                           <li class="nav-item ">
+                        <ul class="navbar-nav">
+                           <!-- Navigation links to various pages -->
+                           <li class="nav-item">
                               <a class="nav-link" href="index.html">Home </a>
                            </li>
                            <li class="nav-item">
@@ -63,8 +68,9 @@
                            <li class="nav-item">
                               <a class="nav-link" href="team.html">Team</a>
                            </li>
+                           <!-- Search form inside the navigation bar -->
                            <form class="form-inline">
-                              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                              <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
                               <i class="fa fa-search" aria-hidden="true"></i>
                               </button>
                            </form>
@@ -73,50 +79,52 @@
                   </nav>
                </div>
             </header>
-            <!-- end header section -->
+            <!-- End header section -->
          </div>
-         <!-- service section -->
+         <!-- Service section for choosing calculator or forex converter -->
          <section class="slider_section layout_padding">
             <div class="container">
-            <div class="row">
-            <div class="col-md-12">
-               <div class="detail-box heading_container heading_center">
-                  <h2>Welcome to the <span>Calculator & Forex Convertor</span></h2>
-                  <p>Click the button below to view the latest exchange rates based on USD.</p>
-               </div>
-               <br><br>
-               <!-- Choose between basic calculator or forex converter -->
-               <div class="centered-form-container">
-                  <div class="centered-form">
-                     <form id="calculatorForm">
-                        <h2>Select Mode:</h2>
-                        <div class="radio-group">
-                           <input type="radio" id="basic" name="mode" value="basic" checked>
-                           <label for="basic">Basic Calculator</label>
-                        </div>
-                        <div class="radio-group">
-                           <input type="radio" id="forex" name="mode" value="forex">
-                           <label for="forex">Forex Converter</label>
-                        </div>
-                        <!-- Basic Calculator Inputs -->
-                        <div id="basic-calculator" style="display: block;">
-                           <label for="number1">Enter Number 1:</label>
-                           <input type="text" id="number1" name="number1" required placeholder="e.g., 20">
-                           <label for="number2">Enter Number 2:</label>
-                           <input type="text" id="number2" name="number2" required placeholder="e.g., 105">
-                           <label for="operation">Choose Operation:</label>
-                           <select id="operation" name="operation">
-                              <option value="add">Add</option>
-                              <option value="subtract">Subtract</option>
-                              <option value="multiply">Multiply</option>
-                              <option value="divide">Divide</option>
-                           </select>
-                        </div>
-                        <!-- Forex Converter Inputs -->
-                        <div id="forex-calculator" style="display: none;">
-                           <label for="fromCurrency">From Currency:</label>
-                           <select id="fromCurrency" name="fromCurrency">
-                              <option value="USD">USD</option>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="detail-box heading_container heading_center">
+                        <h2>Welcome to the <span>Calculator & Forex Converter</span></h2>
+                        <p>Click the button below to view the latest exchange rates based on USD.</p>
+                     </div>
+                     <br><br>
+                     <!-- Form for selecting between basic calculator or forex converter -->
+                     <div class="centered-form-container">
+                        <div class="centered-form">
+                           <form id="calculatorForm">
+                              <h2>Select Mode:</h2>
+                              <!-- Radio buttons for selecting the calculator mode -->
+                              <div class="radio-group">
+                                 <input type="radio" id="basic" name="mode" value="basic" checked>
+                                 <label for="basic">Basic Calculator</label>
+                              </div>
+                              <div class="radio-group">
+                                 <input type="radio" id="forex" name="mode" value="forex">
+                                 <label for="forex">Forex Converter</label>
+                              </div>
+                              <!-- Basic Calculator Inputs -->
+                              <div id="basic-calculator" style="display: block;">
+                                 <label for="number1">Enter Number 1:</label>
+                                 <input type="text" id="number1" name="number1" required placeholder="e.g., 20">
+                                 <label for="number2">Enter Number 2:</label>
+                                 <input type="text" id="number2" name="number2" required placeholder="e.g., 105">
+                                 <label for="operation">Choose Operation:</label>
+                                 <select id="operation" name="operation">
+                                    <option value="add">Add</option>
+                                    <option value="subtract">Subtract</option>
+                                    <option value="multiply">Multiply</option>
+                                    <option value="divide">Divide</option>
+                                 </select>
+                              </div>
+                              <!-- Forex Converter Inputs -->
+                              <div id="forex-calculator" style="display: none;">
+                                 <label for="fromCurrency">From Currency:</label>
+                                 <select id="fromCurrency" name="fromCurrency">
+                                    <!-- Dropdown for selecting the source currency -->
+                                    <option value="USD">USD</option>
                               <option value="EUR">EUR</option>
                               <option value="GBP">GBP</option>
                               <option value="JPY">JPY</option>
@@ -159,171 +167,144 @@
                            <label for="amount">Amount:</label>
                            <input type="text" id="amount" name="amount" required placeholder="e.g., 100">
                         </div>
-                        <!-- Submit button -->
+                        <!-- Submit button for the form -->
                         <input type="button" value="Calculate" onclick="submitForm()">
                      </form>
-                     <!-- Add the following section inside your form or below the form -->
+                     <!-- Result box to display the output -->
                      <div id="result" class="result-box">
                         <!-- The result will be displayed here -->
                      </div>
                   </div>
                </div>
             </div>
-         </section>
-         <!-- info section -->
-         <section class="info_section layout_padding2">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6 col-lg-3 info_col">
-                     <div class="info_contact">
-                        <h4>
-                           Address
-                        </h4>
-                        <div class="contact_link_box">
-                           <a href="">
-                           <i class="fa fa-map-marker" aria-hidden="true"></i>
-                           <span>
-                           Location
-                           </span>
-                           </a>
-                           <a href="">
-                           <i class="fa fa-phone" aria-hidden="true"></i>
-                           <span>
-                           Call +01 1234567890
-                           </span>
-                           </a>
-                           <a href="">
-                           <i class="fa fa-envelope" aria-hidden="true"></i>
-                           <span>
-                           demo@gmail.com
-                           </span>
-                           </a>
-                        </div>
-                     </div>
-                     <div class="info_social">
-                        <a href="">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                        <a href="">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                     </div>
+         </div>
+      </div>
+   </section>
+   <!-- Info section with contact details and social media links -->
+   <section class="info_section layout_padding2">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 col-lg-3 info_col">
+               <div class="info_contact">
+                  <h4>Address</h4>
+                  <div class="contact_link_box">
+                     <a href="">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span>Location</span>
+                     </a>
+                     <a href="">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>Call +01 1234567890</span>
+                     </a>
+                     <a href="">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span>demo@gmail.com</span>
+                     </a>
                   </div>
-                  <div class="col-md-6 col-lg-3 info_col">
-                     <div class="info_detail">
-                        <h4>
-                           Info
-                        </h4>
-                        <p>
-                           necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
-                        </p>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-lg-2 mx-auto info_col">
-                     <div class="info_link_box">
-                        <h4>
-                           Links
-                        </h4>
-                        <div class="info_links">
-                           <a class="active" href="index.html">
-                           Home
-                           </a>
-                           <a class="" href="about.html">
-                           About
-                           </a>
-                           <a class="" href="service.html">
-                           Services
-                           </a>
-                           <a class="" href="why.html">
-                           Why Us
-                           </a>
-                           <a class="" href="team.html">
-                           Team
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3 info_col ">
-                     <h4>
-                        Subscribe
-                     </h4>
-                     <form action="#">
-                        <input type="text" placeholder="Enter email" />
-                        <button type="submit">
-                        Subscribe
-                        </button>
-                     </form>
+               </div>
+               <!-- Social media links for user engagement -->
+               <div class="info_social">
+                  <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col">
+               <div class="info_detail">
+                  <h4>Info</h4>
+                  <p>Providing reliable currency conversion and calculator tools for your convenience.</p>
+               </div>
+            </div>
+            <!-- Links to other sections of the website for easy navigation -->
+            <div class="col-md-6 col-lg-2 mx-auto info_col">
+               <div class="info_link_box">
+                  <h4>Links</h4>
+                  <div class="info_links">
+                     <a class="active" href="index.html">Home</a>
+                     <a href="about.html">About</a>
+                     <a href="service.html">Services</a>
+                     <a href="why.html">Why Us</a>
+                     <a href="team.html">Team</a>
                   </div>
                </div>
             </div>
-         </section>
-         <!-- end info section -->
-         <!-- footer section -->
-         <section class="footer_section">
-            <div class="container">
-               <p>
-                  &copy; <span id="displayYear"></span> All Rights Reserved By
-                  <a href="https://html.design/">Free Html Templates</a>
-               </p>
+            <div class="col-md-6 col-lg-3 info_col">
+               <h4>Subscribe</h4>
+               <!-- Subscription form for newsletters -->
+               <form action="#">
+                  <input type="text" placeholder="Enter email" />
+                  <button type="submit">Subscribe</button>
+               </form>
             </div>
-         </section>
-         <!-- footer section -->
-         <!-- jQery -->
-         <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-         <!-- popper js -->
-         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-         <!-- bootstrap js -->
-         <script type="text/javascript" src="js/bootstrap.js"></script>
-         <!-- owl slider -->
-         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-         <!-- custom js -->
-         <script type="text/javascript" src="js/custom.js"></script>
-         <!-- Google Map -->
-         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-         <!-- End Google Map -->
-         <script>
-            // Toggle between basic and forex calculators
-            document.addEventListener('DOMContentLoaded', function() {
-                const basicRadio = document.getElementById('basic');
-                const forexRadio = document.getElementById('forex');
-                const basicCalculator = document.getElementById('basic-calculator');
-                const forexCalculator = document.getElementById('forex-calculator');
-            
-                basicRadio.addEventListener('change', function() {
-                    basicCalculator.style.display = 'block';
-                    forexCalculator.style.display = 'none';
-                });
-            
-                forexRadio.addEventListener('change', function() {
-                    basicCalculator.style.display = 'none';
-                    forexCalculator.style.display = 'block';
-                });
-            });
-            
-            
-            // AJAX form submission
-            function submitForm() {
-                const form = document.getElementById('calculatorForm');
-                const formData = new FormData(form);
-            
-                fetch('client.php', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('result').innerHTML = data;
-                })
-                .catch(error => {
-                    document.getElementById('result').innerHTML = "Error: " + error;
-                });
-            }
-         </script>
-   </body>
+         </div>
+      </div>
+   </section>
+   <!-- End info section -->
+   <!-- Footer section with copyright information -->
+   <section class="footer_section">
+      <div class="container">
+         <p>&copy; <span id="displayYear"></span> All Rights Reserved By
+            <a href="https://html.design/">Free Html Templates</a>
+         </p>
+      </div>
+   </section>
+   <!-- End footer section -->
+   <!-- JavaScript libraries for interactivity -->
+   <!-- jQuery library -->
+   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+   <!-- Popper.js for tooltip and popover positioning -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <!-- Bootstrap JS for interactive components -->
+   <script type="text/javascript" src="js/bootstrap.js"></script>
+   <!-- Owl Carousel library for slider functionality -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <!-- Custom JavaScript for additional functionalities -->
+   <script type="text/javascript" src="js/custom.js"></script>
+   <!-- Google Map integration script -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+   <!-- End Google Map -->
+   <script>
+      // Script to toggle between basic and forex calculators
+      document.addEventListener('DOMContentLoaded', function() {
+          const basicRadio = document.getElementById('basic');
+          const forexRadio = document.getElementById('forex');
+          const basicCalculator = document.getElementById('basic-calculator');
+          const forexCalculator = document.getElementById('forex-calculator');
+      
+          // Show the basic calculator and hide the forex converter when 'Basic' is selected
+          basicRadio.addEventListener('change', function() {
+              basicCalculator.style.display = 'block';
+              forexCalculator.style.display = 'none';
+          });
+      
+          // Show the forex converter and hide the basic calculator when 'Forex' is selected
+          forexRadio.addEventListener('change', function() {
+              basicCalculator.style.display = 'none';
+              forexCalculator.style.display = 'block';
+          });
+      });
+      
+      // Function to submit the form data using AJAX and display the result
+      function submitForm() {
+          const form = document.getElementById('calculatorForm');
+          const formData = new FormData(form);
+      
+          // Send the form data to 'client.php' using a POST request
+          fetch('client.php', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.text())
+          .then(data => {
+              // Display the server response in the result div
+              document.getElementById('result').innerHTML = data;
+          })
+          .catch(error => {
+              // Display any errors encountered during the request
+              document.getElementById('result').innerHTML = "Error: " + error;
+          });
+      }
+   </script>
+</body>
 </html>
