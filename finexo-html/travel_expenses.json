@@ -1,0 +1,92 @@
+{
+    "USA": {
+        "accommodation": "100-150 USD per night",
+        "food": "20-50 USD per day",
+        "transportation": "10-20 USD per day",
+        "sightseeing": "50-100 USD"
+    },
+    "France": {
+        "accommodation": "80-120 EUR per night",
+        "food": "15-40 EUR per day",
+        "transportation": "10-15 EUR per day",
+        "sightseeing": "30-70 EUR"
+    },
+    "Japan": {
+        "accommodation": "30-200 USD per night",
+        "food": "20-60 USD per day",
+        "transportation": "30 USD per day",
+        "sightseeing": "30-70 USD"
+    },
+    "Australia": {
+        "accommodation": "150-200 AUD per night",
+        "food": "25-60 AUD per day",
+        "transportation": "15-30 AUD per day",
+        "sightseeing": "50-120 AUD"
+    },
+    "Brazil": {
+        "accommodation": "100-200 BRL per night",
+        "food": "30-60 BRL per day",
+        "transportation": "10-20 BRL per day",
+        "sightseeing": "50-100 BRL"
+    },
+    "Canada": {
+        "accommodation": "100-180 CAD per night",
+        "food": "20-50 CAD per day",
+        "transportation": "10-25 CAD per day",
+        "sightseeing": "40-80 CAD"
+    },
+    "Germany": {
+        "accommodation": "70-150 EUR per night",
+        "food": "15-35 EUR per day",
+        "transportation": "10-20 EUR per day",
+        "sightseeing": "20-60 EUR"
+    },
+    "India": {
+        "accommodation": "1000-3000 INR per night",
+        "food": "300-700 INR per day",
+        "transportation": "100-300 INR per day",
+        "sightseeing": "500-1000 INR"
+    },
+    "South Africa": {
+        "accommodation": "800-1500 ZAR per night",
+        "food": "100-300 ZAR per day",
+        "transportation": "50-150 ZAR per day",
+        "sightseeing": "200-500 ZAR"
+    },
+    "Italy": {
+        "accommodation": "70-130 EUR per night",
+        "food": "15-40 EUR per day",
+        "transportation": "10-20 EUR per day",
+        "sightseeing": "30-70 EUR"
+    },
+    "Mexico": {
+        "accommodation": "500-1500 MXN per night",
+        "food": "100-300 MXN per day",
+        "transportation": "50-100 MXN per day",
+        "sightseeing": "200-500 MXN"
+    },
+    "Thailand": {
+        "accommodation": "500-1000 THB per night",
+        "food": "100-250 THB per day",
+        "transportation": "50-100 THB per day",
+        "sightseeing": "200-400 THB"
+    },
+    "United Kingdom": {
+        "accommodation": "70-150 GBP per night",
+        "food": "20-50 GBP per day",
+        "transportation": "10-20 GBP per day",
+        "sightseeing": "30-80 GBP"
+    },
+    "Turkey": {
+        "accommodation": "300-600 TRY per night",
+        "food": "50-100 TRY per day",
+        "transportation": "20-50 TRY per day",
+        "sightseeing": "100-200 TRY"
+    },
+    "Singapore": {
+        "accommodation": "100-200 SGD per night",
+        "food": "20-50 SGD per day",
+        "transportation": "10-20 SGD per day",
+        "sightseeing": "30-70 SGD"
+    }
+}

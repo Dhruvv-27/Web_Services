@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<currencies>
+    <!-- USD Exchange Rates -->
+    <currency from="USD" to="EUR" rate="0.85"/>
+    <currency from="USD" to="GBP" rate="0.75"/>
+    <currency from="USD" to="JPY" rate="110.00"/>
+    <currency from="USD" to="INR" rate="74.00"/>
+    <currency from="USD" to="CAD" rate="1.25"/>
+    <currency from="USD" to="CHF" rate="0.92"/>
+    <currency from="USD" to="MUR" rate="42.00"/>
+    <currency from="USD" to="AUD" rate="1.36"/>
+    <currency from="USD" to="CNY" rate="6.45"/>
+    <currency from="USD" to="ZAR" rate="14.50"/>
+    <currency from="USD" to="AED" rate="3.67"/>
+    <currency from="USD" to="BRL" rate="5.53"/>
+    <currency from="USD" to="HKD" rate="7.77"/>
+    <currency from="USD" to="MXN" rate="19.43"/>
+    <currency from="USD" to="NZD" rate="1.64"/>
+    <currency from="USD" to="SGD" rate="1.30"/>
+
+    <!-- EUR Exchange Rates -->
+    <currency from="EUR" to="USD" rate="1.18"/>
+<currency from="EUR" to="GBP" rate="0.88"/>
+<currency from="EUR" to="JPY" rate="129.00"/>
+<currency from="EUR" to="INR" rate="87.00"/>
+<currency from="EUR" to="CAD" rate="1.47"/>
+<currency from="EUR" to="CHF" rate="1.08"/>
+<currency from="EUR" to="MUR" rate="49.00"/>
+<currency from="EUR" to="AUD" rate="1.60"/>
+<currency from="EUR" to="CNY" rate="7.59"/>
+<currency from="EUR" to="ZAR" rate="17.00"/>
+<currency from="EUR" to="AED" rate="4.35"/>
+<currency from="EUR" to="BRL" rate="6.50"/>
+<currency from="EUR" to="HKD" rate="9.18"/>
+<currency from="EUR" to="MXN" rate="22.50"/>
+<currency from="EUR" to="NZD" rate="1.90"/>
+<currency from="EUR" to="SGD" rate="1.54"/>
+
+
+    <!-- GBP Exchange Rates -->
+<currency from="GBP" to="USD" rate="1.33"/>
+<currency from="GBP" to="EUR" rate="1.14"/>
+<currency from="GBP" to="JPY" rate="147.00"/>
+<currency from="GBP" to="INR" rate="99.00"/>
+<currency from="GBP" to="CAD" rate="1.67"/>
+<currency from="GBP" to="CHF" rate="1.25"/>
+<currency from="GBP" to="MUR" rate="56.00"/>
+<currency from="GBP" to="AUD" rate="1.84"/>
+<currency from="GBP" to="CNY" rate="8.64"/>
+<currency from="GBP" to="ZAR" rate="19.45"/>
+<currency from="GBP" to="AED" rate="5.00"/>
+<currency from="GBP" to="BRL" rate="7.30"/>
+<currency from="GBP" to="HKD" rate="10.30"/>
+<currency from="GBP" to="MXN" rate="25.00"/>
+<currency from="GBP" to="NZD" rate="2.20"/>
+<currency from="GBP" to="SGD" rate="1.80"/>
+
+    <!-- JPY Exchange Rates -->
+<currency from="JPY" to="USD" rate="0.0091"/>
+<currency from="JPY" to="EUR" rate="0.0078"/>
+<currency from="JPY" to="GBP" rate="0.0068"/>
+<currency from="JPY" to="INR" rate="0.68"/>
+<currency from="JPY" to="CAD" rate="0.011"/>
+<currency from="JPY" to="CHF" rate="0.0084"/>
+<currency from="JPY" to="MUR" rate="0.38"/>
+<currency from="JPY" to="AUD" rate="0.012"/>
+<currency from="JPY" to="CNY" rate="0.058"/>
+<currency from="JPY" to="ZAR" rate="0.13"/>
+<currency from="JPY" to="AED" rate="0.033"/>
+<currency from="JPY" to="BRL" rate="0.049"/>
+<currency from="JPY" to="HKD" rate="0.070"/>
+<currency from="JPY" to="MXN" rate="0.17"/>
+<currency from="JPY" to="NZD" rate="0.014"/>
+<currency from="JPY" to="SGD" rate="0.011"/>
+
+
+    <!-- INR Exchange Rates -->
+<currency from="INR" to="USD" rate="0.0135"/>
+<currency from="INR" to="EUR" rate="0.0115"/>
+<currency from="INR" to="GBP" rate="0.0101"/>
+<currency from="INR" to="JPY" rate="1.47"/>
+<currency from="INR" to="CAD" rate="0.017"/>
+<currency from="INR" to="CHF" rate="0.0124"/>
+<currency from="INR" to="MUR" rate="0.57"/>
+<currency from="INR" to="AUD" rate="0.018"/>
+<currency from="INR" to="CNY" rate="0.087"/>
+<currency from="INR" to="ZAR" rate="0.19"/>
+<currency from="INR" to="AED" rate="0.049"/>
+<currency from="INR" to="BRL" rate="0.074"/>
+<currency from="INR" to="HKD" rate="0.10"/>
+<currency from="INR" to="MXN" rate="0.26"/>
+<currency from="INR" to="NZD" rate="0.021"/>
+<currency from="INR" to="SGD" rate="0.018"/>
+
+
+    <!-- CAD Exchange Rates -->
+<currency from="CAD" to="USD" rate="0.80"/>
+<currency from="CAD" to="EUR" rate="0.68"/>
+<currency from="CAD" to="GBP" rate="0.60"/>
+<currency from="CAD" to="JPY" rate="88.00"/>
+<currency from="CAD" to="INR" rate="59.00"/>
+<currency from="CAD" to="CHF" rate="0.74"/>
+<currency from="CAD" to="MUR" rate="33.60"/>
+<currency from="CAD" to="AUD" rate="1.08"/>
+<currency from="CAD" to="CNY" rate="5.16"/>
+<currency from="CAD" to="ZAR" rate="11.60"/>
+<currency from="CAD" to="AED" rate="2.94"/>
+<currency from="CAD" to="BRL" rate="4.42"/>
+<currency from="CAD" to="HKD" rate="6.20"/>
+<currency from="CAD" to="MXN" rate="15.54"/>
+<currency from="CAD" to="NZD" rate="1.25"/>
+<currency from="CAD" to="SGD" rate="1.12"/>
+
+
+    <!-- CHF Exchange Rates -->
+<currency from="CHF" to="USD" rate="1.09"/>
+<currency from="CHF" to="EUR" rate="0.93"/>
+<currency from="CHF" to="GBP" rate="0.80"/>
+<currency from="CHF" to="JPY" rate="119.00"/>
+<currency from="CHF" to="INR" rate="81.00"/>
+<currency from="CHF" to="CAD" rate="1.35"/>
+<currency from="CHF" to="MUR" rate="45.00"/>
+<currency from="CHF" to="AUD" rate="1.48"/>
+<currency from="CHF" to="CNY" rate="6.00"/>
+<currency from="CHF" to="ZAR" rate="13.60"/>
+<currency from="CHF" to="AED" rate="4.00"/>
+<currency from="CHF" to="BRL" rate="5.70"/>
+<currency from="CHF" to="HKD" rate="8.50"/>
+<currency from="CHF" to="MXN" rate="22.00"/>
+<currency from="CHF" to="NZD" rate="1.65"/>
+<currency from="CHF" to="SGD" rate="1.50"/>
+
+
+
+    <!-- MUR Exchange Rates -->
+<currency from="MUR" to="USD" rate="0.024"/>
+<currency from="MUR" to="EUR" rate="0.020"/>
+<currency from="MUR" to="GBP" rate="0.018"/>
+<currency from="MUR" to="JPY" rate="2.60"/>
+<currency from="MUR" to="INR" rate="1.76"/>
+<currency from="MUR" to="CAD" rate="0.03"/>
+<currency from="MUR" to="CHF" rate="0.022"/>
+<currency from="MUR" to="AUD" rate="0.033"/>
+<currency from="MUR" to="CNY" rate="0.153"/>
+<currency from="MUR" to="ZAR" rate="0.34"/>
+<currency from="MUR" to="AED" rate="0.083"/>
+<currency from="MUR" to="BRL" rate="0.13"/>
+<currency from="MUR" to="HKD" rate="0.19"/>
+<currency from="MUR" to="MXN" rate="0.59"/>
+<currency from="MUR" to="NZD" rate="0.039"/>
+<currency from="MUR" to="SGD" rate="0.031"/>
+
+
+
+    <!-- AUD Exchange Rates -->
+<currency from="AUD" to="USD" rate="0.74"/>
+<currency from="AUD" to="EUR" rate="0.63"/>
+<currency from="AUD" to="GBP" rate="0.54"/>
+<currency from="AUD" to="JPY" rate="81.00"/>
+<currency from="AUD" to="INR" rate="55.00"/>
+<currency from="AUD" to="CAD" rate="0.93"/>
+<currency from="AUD" to="CHF" rate="0.67"/>
+<currency from="AUD" to="MUR" rate="30.90"/>
+<currency from="AUD" to="CNY" rate="4.73"/>
+<currency from="AUD" to="ZAR" rate="10.80"/>
+<currency from="AUD" to="AED" rate="2.70"/>
+<currency from="AUD" to="BRL" rate="4.00"/>
+<currency from="AUD" to="HKD" rate="5.80"/>
+<currency from="AUD" to="MXN" rate="15.00"/>
+<currency from="AUD" to="NZD" rate="1.08"/>
+<currency from="AUD" to="SGD" rate="0.98"/>
+
+
+    <!-- CNY Exchange Rates -->
+<currency from="CNY" to="USD" rate="0.16"/>
+<currency from="CNY" to="EUR" rate="0.13"/>
+<currency from="CNY" to="GBP" rate="0.12"/>
+<currency from="CNY" to="JPY" rate="17.00"/>
+<currency from="CNY" to="INR" rate="11.50"/>
+<currency from="CNY" to="CAD" rate="0.19"/>
+<currency from="CNY" to="CHF" rate="0.15"/>
+<currency from="CNY" to="MUR" rate="6.56"/>
+<currency from="CNY" to="AUD" rate="0.21"/>
+<currency from="CNY" to="ZAR" rate="2.25"/>
+<currency from="CNY" to="AED" rate="0.55"/>
+<currency from="CNY" to="BRL" rate="0.84"/>
+<currency from="CNY" to="HKD" rate="1.20"/>
+<currency from="CNY" to="MXN" rate="3.20"/>
+<currency from="CNY" to="NZD" rate="0.24"/>
+<currency from="CNY" to="SGD" rate="0.21"/>
+
+
+
+
+    <!-- ZAR Exchange Rates -->
+<currency from="ZAR" to="USD" rate="0.069"/>
+<currency from="ZAR" to="EUR" rate="0.059"/>
+<currency from="ZAR" to="GBP" rate="0.051"/>
+<currency from="ZAR" to="JPY" rate="7.60"/>
+<currency from="ZAR" to="INR" rate="5.30"/>
+<currency from="ZAR" to="CAD" rate="0.086"/>
+<currency from="ZAR" to="CHF" rate="0.073"/>
+<currency from="ZAR" to="MUR" rate="4.40"/>
+<currency from="ZAR" to="AUD" rate="0.093"/>
+<currency from="ZAR" to="CNY" rate="0.44"/>
+<currency from="ZAR" to="AED" rate="0.19"/>
+<currency from="ZAR" to="BRL" rate="0.32"/>
+<currency from="ZAR" to="HKD" rate="0.54"/>
+<currency from="ZAR" to="MXN" rate="1.33"/>
+<currency from="ZAR" to="NZD" rate="0.11"/>
+<currency from="ZAR" to="SGD" rate="0.091"/>
+
+
+
+    <!-- AED Exchange Rates -->
+<currency from="AED" to="USD" rate="0.27"/>
+<currency from="AED" to="EUR" rate="0.23"/>
+<currency from="AED" to="GBP" rate="0.20"/>
+<currency from="AED" to="JPY" rate="30.00"/>
+<currency from="AED" to="INR" rate="20.00"/>
+<currency from="AED" to="CAD" rate="0.34"/>
+<currency from="AED" to="CHF" rate="0.25"/>
+<currency from="AED" to="MUR" rate="11.50"/>
+<currency from="AED" to="AUD" rate="0.37"/>
+<currency from="AED" to="CNY" rate="1.48"/>
+<currency from="AED" to="ZAR" rate="3.67"/>
+<currency from="AED" to="BRL" rate="1.50"/>
+<currency from="AED" to="HKD" rate="2.08"/>
+<currency from="AED" to="MXN" rate="5.28"/>
+<currency from="AED" to="NZD" rate="0.45"/>
+<currency from="AED" to="SGD" rate="0.36"/>
+
+
+
+    <!-- BRL Exchange Rates -->
+<currency from="BRL" to="USD" rate="0.19"/>
+<currency from="BRL" to="EUR" rate="0.16"/>
+<currency from="BRL" to="GBP" rate="0.14"/>
+<currency from="BRL" to="JPY" rate="21.00"/>
+<currency from="BRL" to="INR" rate="14.00"/>
+<currency from="BRL" to="CAD" rate="0.25"/>
+<currency from="BRL" to="CHF" rate="0.19"/>
+<currency from="BRL" to="MUR" rate="7.80"/>
+<currency from="BRL" to="AUD" rate="0.27"/>
+<currency from="BRL" to="CNY" rate="1.02"/>
+<currency from="BRL" to="ZAR" rate="3.36"/>
+<currency from="BRL" to="AED" rate="0.68"/>
+<currency from="BRL" to="HKD" rate="1.50"/>
+<currency from="BRL" to="MXN" rate="3.80"/>
+<currency from="BRL" to="NZD" rate="0.32"/>
+<currency from="BRL" to="SGD" rate="0.26"/>
+
+
+
+    <!-- HKD Exchange Rates -->
+<currency from="HKD" to="USD" rate="0.13"/>
+<currency from="HKD" to="EUR" rate="0.11"/>
+<currency from="HKD" to="GBP" rate="0.095"/>
+<currency from="HKD" to="JPY" rate="14.00"/>
+<currency from="HKD" to="INR" rate="9.50"/>
+<currency from="HKD" to="CAD" rate="0.16"/>
+<currency from="HKD" to="CHF" rate="0.12"/>
+<currency from="HKD" to="MUR" rate="5.00"/>
+<currency from="HKD" to="AUD" rate="0.18"/>
+<currency from="HKD" to="CNY" rate="0.85"/>
+<currency from="HKD" to="ZAR" rate="2.10"/>
+<currency from="HKD" to="AED" rate="0.35"/>
+<currency from="HKD" to="BRL" rate="0.67"/>
+<currency from="HKD" to="MXN" rate="2.47"/>
+<currency from="HKD" to="NZD" rate="0.22"/>
+<currency from="HKD" to="SGD" rate="0.18"/>
+
+
+
+    <!-- MXN Exchange Rates -->
+<currency from="MXN" to="USD" rate="0.051"/>
+<currency from="MXN" to="EUR" rate="0.043"/>
+<currency from="MXN" to="GBP" rate="0.037"/>
+<currency from="MXN" to="JPY" rate="5.50"/>
+<currency from="MXN" to="INR" rate="3.80"/>
+<currency from="MXN" to="CAD" rate="0.063"/>
+<currency from="MXN" to="CHF" rate="0.048"/>
+<currency from="MXN" to="MUR" rate="2.50"/>
+<currency from="MXN" to="AUD" rate="0.067"/>
+<currency from="MXN" to="CNY" rate="0.30"/>
+<currency from="MXN" to="ZAR" rate="0.72"/>
+<currency from="MXN" to="AED" rate="0.19"/>
+<currency from="MXN" to="BRL" rate="0.27"/>
+<currency from="MXN" to="HKD" rate="0.40"/>
+<currency from="MXN" to="NZD" rate="0.056"/>
+<currency from="MXN" to="SGD" rate="0.051"/>
+
+
+
+    <!-- NZD Exchange Rates -->
+<currency from="NZD" to="USD" rate="0.67"/>
+<currency from="NZD" to="EUR" rate="0.57"/>
+<currency from="NZD" to="GBP" rate="0.50"/>
+<currency from="NZD" to="JPY" rate="76.00"/>
+<currency from="NZD" to="INR" rate="51.00"/>
+<currency from="NZD" to="CAD" rate="0.85"/>
+<currency from="NZD" to="CHF" rate="0.63"/>
+<currency from="NZD" to="MUR" rate="28.00"/>
+<currency from="NZD" to="AUD" rate="0.93"/>
+<currency from="NZD" to="CNY" rate="4.40"/>
+<currency from="NZD" to="ZAR" rate="9.85"/>
+<currency from="NZD" to="AED" rate="2.46"/>
+<currency from="NZD" to="BRL" rate="3.25"/>
+<currency from="NZD" to="HKD" rate="5.20"/>
+<currency from="NZD" to="MXN" rate="11.75"/>
+<currency from="NZD" to="SGD" rate="0.81"/>
+
+
+    <!-- SGD Exchange Rates -->
+<currency from="SGD" to="USD" rate="0.74"/>
+<currency from="SGD" to="EUR" rate="0.62"/>
+<currency from="SGD" to="GBP" rate="0.53"/>
+<currency from="SGD" to="JPY" rate="83.00"/>
+<currency from="SGD" to="INR" rate="56.00"/>
+<currency from="SGD" to="CAD" rate="0.92"/>
+<currency from="SGD" to="CHF" rate="0.69"/>
+<currency from="SGD" to="MUR" rate="30.20"/>
+<currency from="SGD" to="AUD" rate="1.08"/>
+<currency from="SGD" to="CNY" rate="4.80"/>
+<currency from="SGD" to="ZAR" rate="10.20"/>
+<currency from="SGD" to="AED" rate="2.70"/>
+<currency from="SGD" to="BRL" rate="3.60"/>
+<currency from="SGD" to="HKD" rate="5.40"/>
+<currency from="SGD" to="MXN" rate="14.00"/>
+<currency from="SGD" to="NZD" rate="1.23"/>
+
+
+
+</currencies>
